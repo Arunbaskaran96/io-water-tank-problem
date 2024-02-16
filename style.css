@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* for input */
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.input-container input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+
+
+/* for-conatainers */
+#brickwithwater,#onlywater{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+
+.rowContainer,.child{
+    border: 0.5px solid rgb(204, 202, 202);
+
+}
+
+
+/* For buttons */
+#btnContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+.btn{
+    height: 40px;
+    padding: 0px 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#generateBtn{
+    background-color: teal;
+
+}
+
+#submitBtn{
+    background-color: green;
+}
+
+
+
+#textContainer{
+    text-align: center;
+    margin-bottom: 25px;
+}
