@@ -12,8 +12,5 @@ Here you can see two buttons
 - Then you can see the results,It will show two results
 
 Here is an example
-1.Bricks with water
-![](Bricksandwater.png)
-
-2.Only water
-![](onlywater.png)
+![1.Bricks with water](Bricksandwater.png)
+![2.Only water](onlywater.png)
