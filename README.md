@@ -1,7 +1,7 @@
 ![](water-home.png)
 
 This is the home page of this website.
-Here you can see two buttons
+Here you can see two buttons.
 :star: Generate Input
 - This button helps you add some value to the input field
   
