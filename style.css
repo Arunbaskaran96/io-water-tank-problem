@@ -1,67 +1,71 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.block{
+    width: 50px;
 }
 
-/* for input */
-.input-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.input-container input{
-    height: 40px;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid grey;
-    font-size: 18px;
-}
-
-
-/* for-conatainers */
-#brickwithwater,#onlywater{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 70px;
-
-}
-
-.rowContainer,.child{
-    border: 0.5px solid rgb(204, 202, 202);
-
-}
-
-
-/* For buttons */
-#btnContainer{
+#brickandwater,#waterContainer{
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    margin: 25px;
 }
+
+.graphContaimer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* gap: 10px; */
+}
+#input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.inputcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
 .btn{
-    height: 40px;
-    padding: 0px 5px;
-    cursor: pointer;
+    height: 33px;
     border: none;
-    color: white;
-    border-radius: 5px;
-}
-#generateBtn{
+    width: 120px;
     background-color: teal;
-
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    &:hover{
+        background-color: rgb(7, 173, 173);
+        border-top-right-radius: 10px;
+    }
 }
 
-#submitBtn{
-    background-color: green;
+.yaxis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
-
-
-
-#textContainer{
+*{
     text-align: center;
-    margin-bottom: 25px;
+}
+
+.formContainer{
+    margin-top: 30px;
 }

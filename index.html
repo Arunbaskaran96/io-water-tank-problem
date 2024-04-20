@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css"  rel="stylesheet"></link>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body>
-    <div class="input-container">
-        <input id="input" type="number" placeholder=" Enter your input like this 0400060640"/>
-        <div id="btnContainer">
-            <button id="generateBtn" class="btn" onclick="generateInput()">Generate Input</button>
-            <button id="submitBtn" class="btn" onclick="submitHandler()">Submit</button>
-        </div>
+  </head>
+  <body>
+    <div class="formContainer">
+      <div class="inputcontainer">
+        <input id="input" type="number" />
+      </div>
+      <div class="btnContainer">
+        <button class="btn" onclick="submitInput()">Submit</button>
+      </div>
     </div>
-    <div id="textContainer">
-        <h2 id="totalSum"></h2>
+    <div>
+      <h2 id="total"></h2>
     </div>
-    <div  id="textContainer">
-        <h3 id="heading1"></h3>
-    </div>
-    <div id="brickwithwater">
-
-    </div>
-    <div  id="textContainer">
-        <h3 id="heading2"></h3>
-    </div>  
-    <div id="onlywater">  
+    <div class="graphContainer">
+      <h3 id="bricks"></h3>
+      <div id="brickandwater"></div>
+      <h3 id="water"></h3>
+      <div id="waterContainer"></div>
     </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
